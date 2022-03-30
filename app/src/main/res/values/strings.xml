@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">COLMIFOOD</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Estudiante</string>
+    <string name="nav_header_subtitle">Estafania_1319104055@UPT.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Salir</string>
+
+    <string name="menu_menu">inicio</string>
+    <string name="menu_inicio">Menu</string>
+    <string name="menu_empleado">Registrar Empleado</string>
+    <string name="menu_producto">Registrar Producto</string>
+    <string name="menu_edproduto">Editar Producto</string>
+    <string name="menu_Categoria">Registrar Categoria</string>
+    <string name="menu_Proveedor">Registrar Proveedor</string>
+    <string name="menu_Carrito">Carrito</string>
+    <string name="menu_Productos">Productos</string>
+    <string name="menu_Registrar">Registrar</string>
+    <string name="menu_Editar">Editar Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

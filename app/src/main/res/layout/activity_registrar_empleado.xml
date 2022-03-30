@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.registrarEmpleado.registrarEmpleadoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_weight="1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar Empleado"
+            android:textSize="30dp"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:id="@+id/textinicio"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombre"
+            android:layout_below="@+id/textinicio"
+            android:background="@drawable/style_borde"
+            android:hint="Nombre"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombreA"
+            android:layout_below="@+id/nombre"
+            android:background="@drawable/style_borde"
+            android:hint="Apellido Paterno"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nombreM"
+            android:layout_below="@+id/nombreA"
+            android:background="@drawable/style_borde"
+            android:hint="Apellido Materno"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_person"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Correo"
+            android:layout_below="@+id/nombreM"
+            android:background="@drawable/style_borde"
+            android:hint="Correo"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_email"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:layout_below="@+id/Correo"
+            android:background="@drawable/style_borde"
+            android:hint="Contraseñia"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_info"
+            android:drawablePadding="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/Tipo"
+            android:layout_below="@+id/password"
+            android:background="@drawable/style_borde"
+            android:hint="Tipo de Usuario"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_supervisor"
+            android:drawablePadding="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="158dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/registrarEbtn"
+                    android:backgroundTint="@color/teal_800"
+                    android:text="Registrar"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="40dp"
+                    android:padding="10dp"/>
+
+                <Button
+                    android:id="@+id/menubtn"
+                    android:backgroundTint="@color/teal_800"
+                    android:text="Menu"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="40dp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

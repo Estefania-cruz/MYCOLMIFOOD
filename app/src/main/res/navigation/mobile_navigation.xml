@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.mycolmifood.ui.inicio.inicioFragment"
+        android:label="@string/menu_inicio"
+        tools:layout="@layout/fragment_inicio" />
+
+    <activity
+        android:id="@+id/nav_edita"
+        android:name="com.example.mycolmifood.ui.editarPerfil.EditarPerfil"
+        android:label="@string/menu_Editar"
+        tools:layout="@layout/activity_editar_perfil" />
+    <activity
+        android:id="@+id/nav_regisempleado"
+        android:name="com.example.mycolmifood.ui.registrarEmpleado.registrarEmpleadoActivity"
+        android:label="@string/menu_empleado"
+        tools:layout="@layout/activity_registrar_empleado" />
+
+    <activity
+        android:id="@+id/nav_produc"
+        android:name="com.example.mycolmifood.ui.registrarProducto.registrarProductoActivity"
+        android:label="@string/menu_producto"
+        tools:layout="@layout/activity_registrar_producto" />
+    <activity
+        android:id="@+id/nav_produccto"
+        android:name="com.example.mycolmifood.ui.editarProducto.editarProductoActivity"
+        android:label="@string/menu_edproduto"
+        tools:layout="@layout/activity_editar_producto" />
+    <activity
+        android:id="@+id/nav_categoria"
+        android:name="com.example.mycolmifood.ui.registrarCategoria.registrarCategoriaActivity"
+        android:label="@string/menu_Categoria"
+        tools:layout="@layout/activity_registrar_categoria" />
+    <activity
+        android:id="@+id/nav_registraprovee"
+        android:name="com.example.mycolmifood.ui.registrarProveedor.registrarProveedorActivity"
+        android:label="@string/menu_Proveedor"
+        tools:layout="@layout/activity_registrar_proveedor" />
+    <activity
+        android:id="@+id/nav_registrar"
+        android:name="com.example.mycolmifood.ui.registrar.registrarActivity"
+        android:label="@string/menu_Registrar"
+        tools:layout="@layout/activity_registrar" />
+</navigation>

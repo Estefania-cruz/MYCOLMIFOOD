@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_regisempleado"
+            android:icon="@drawable/ic_baseline_person"
+            android:title="@string/menu_empleado" />
+        <item
+            android:id="@+id/nav_registraprovee"
+            android:icon="@drawable/ic_baseline_person"
+            android:title="@string/menu_Proveedor" />
+        <item
+            android:id="@+id/nav_produc"
+            android:icon="@drawable/ic_baseline_fastfood"
+            android:title="@string/menu_producto" />
+        <item
+            android:id="@+id/nav_produccto"
+            android:icon="@drawable/ic_baseline_fastfood"
+            android:title="@string/menu_edproduto" />
+        <item
+            android:id="@+id/nav_categoria"
+            android:icon="@drawable/ic_baseline_category"
+            android:title="@string/menu_Categoria" />
+        <item
+            android:id="@+id/nav_carrito"
+            android:icon="@drawable/ic_baseline_shopping"
+            android:title="@string/menu_Carrito" />
+        <item
+            android:id="@+id/nav_registrar"
+            android:icon="@drawable/ic_baseline_person"
+            android:title="@string/menu_Registrar" />
+        <item
+            android:id="@+id/nav_edita"
+            android:icon="@drawable/ic_baseline_edit"
+            android:title="@string/menu_Editar" />
+
+    </group>
+</menu>
